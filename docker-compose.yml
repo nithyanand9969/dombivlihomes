@@ -17,9 +17,9 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: dombivli
-      MYSQL_USER: dombivli_user
-      MYSQL_PASSWORD: dombivli_pass
+      MYSQL_DATABASE: pashupra_homes
+      MYSQL_USER: pashupra_homes
+      MYSQL_PASSWORD: Mumbai@2050
     ports:
       - "3306:3306"
     volumes:
