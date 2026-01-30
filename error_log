@@ -1,0 +1,4 @@
+[30-Jan-2026 06:12:17 UTC] PHP Warning:  include_once(../includes/header.php): Failed to open stream: No such file or directory in /home1/pashupra/dombivlihomes.com/index.php on line 1
+[30-Jan-2026 06:12:17 UTC] PHP Warning:  include_once(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/pashupra/dombivlihomes.com/index.php on line 1
+[30-Jan-2026 06:12:17 UTC] PHP Warning:  include_once(../includes/footer.php): Failed to open stream: No such file or directory in /home1/pashupra/dombivlihomes.com/index.php on line 15
+[30-Jan-2026 06:12:17 UTC] PHP Warning:  include_once(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/pashupra/dombivlihomes.com/index.php on line 15

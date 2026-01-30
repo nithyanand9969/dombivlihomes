@@ -1,0 +1,54 @@
+[30-Jan-2026 07:01:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in /home1/pashupra/dombivlihomes.com/data/services.php:4
+Stack trace:
+#0 {main}
+  thrown in /home1/pashupra/dombivlihomes.com/data/services.php on line 4
+[30-Jan-2026 11:08:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in /home1/pashupra/dombivlihomes.com/data/services.php:4
+Stack trace:
+#0 {main}
+  thrown in /home1/pashupra/dombivlihomes.com/data/services.php on line 4
+[30-Jan-2026 11:11:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in /home1/pashupra/dombivlihomes.com/data/services.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/pashupra/dombivlihomes.com/data/services.php on line 8
+[30-Jan-2026 11:11:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in /home1/pashupra/dombivlihomes.com/data/services.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/pashupra/dombivlihomes.com/data/services.php on line 8
+[30-Jan-2026 11:12:06 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "DB_HOST" in /home1/pashupra/dombivlihomes.com/config/database.php:9
+Stack trace:
+#0 /home1/pashupra/dombivlihomes.com/data/services.php(8): getDBConnection()
+#1 {main}
+  thrown in /home1/pashupra/dombivlihomes.com/config/database.php on line 9
+[30-Jan-2026 11:13:25 UTC] PHP Warning:  include_once(includes/header.php): Failed to open stream: No such file or directory in /home1/pashupra/dombivlihomes.com/data/services.php on line 27
+[30-Jan-2026 11:13:25 UTC] PHP Warning:  include_once(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/pashupra/dombivlihomes.com/data/services.php on line 27
+[30-Jan-2026 11:13:25 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHONE" in /home1/pashupra/dombivlihomes.com/data/services.php:66
+Stack trace:
+#0 {main}
+  thrown in /home1/pashupra/dombivlihomes.com/data/services.php on line 66
+[30-Jan-2026 11:13:44 UTC] PHP Warning:  include(data/services.php): Failed to open stream: No such file or directory in /home1/pashupra/dombivlihomes.com/data/services.php on line 156
+[30-Jan-2026 11:13:44 UTC] PHP Warning:  include(): Failed opening 'data/services.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/pashupra/dombivlihomes.com/data/services.php on line 156
+[30-Jan-2026 11:13:44 UTC] PHP Warning:  include(data/dombivli_areas.php): Failed to open stream: No such file or directory in /home1/pashupra/dombivlihomes.com/data/services.php on line 187
+[30-Jan-2026 11:13:44 UTC] PHP Warning:  include(): Failed opening 'data/dombivli_areas.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/pashupra/dombivlihomes.com/data/services.php on line 187
+[30-Jan-2026 11:13:44 UTC] PHP Warning:  include_once(includes/footer.php): Failed to open stream: No such file or directory in /home1/pashupra/dombivlihomes.com/data/services.php on line 248
+[30-Jan-2026 11:13:44 UTC] PHP Warning:  include_once(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/pashupra/dombivlihomes.com/data/services.php on line 248
+[30-Jan-2026 11:14:40 UTC] PHP Warning:  include(data/services.php): Failed to open stream: No such file or directory in /home1/pashupra/dombivlihomes.com/data/services.php on line 156
+[30-Jan-2026 11:14:40 UTC] PHP Warning:  include(): Failed opening 'data/services.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/pashupra/dombivlihomes.com/data/services.php on line 156
+[30-Jan-2026 11:14:40 UTC] PHP Warning:  include_once(includes/footer.php): Failed to open stream: No such file or directory in /home1/pashupra/dombivlihomes.com/data/services.php on line 248
+[30-Jan-2026 11:14:40 UTC] PHP Warning:  include_once(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/pashupra/dombivlihomes.com/data/services.php on line 248
+[30-Jan-2026 11:14:58 UTC] PHP Fatal error:  Cannot redeclare getDefaultIcon() (previously declared in /home1/pashupra/dombivlihomes.com/data/services.php:341) in /home1/pashupra/dombivlihomes.com/data/services.php on line 341
+[30-Jan-2026 11:16:12 UTC] PHP Fatal error:  Cannot redeclare getDefaultIcon() (previously declared in /home1/pashupra/dombivlihomes.com/data/services.php:341) in /home1/pashupra/dombivlihomes.com/data/services.php on line 341
+[30-Jan-2026 11:25:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'zone' in 'field list' in /home1/pashupra/dombivlihomes.com/data/dombivli_areas.php:18
+Stack trace:
+#0 /home1/pashupra/dombivlihomes.com/data/dombivli_areas.php(18): mysqli->query('\r\n    SELECT ar...')
+#1 {main}
+  thrown in /home1/pashupra/dombivlihomes.com/data/dombivli_areas.php on line 18
+[30-Jan-2026 11:27:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'zone' in 'field list' in /home1/pashupra/dombivlihomes.com/data/dombivli_areas.php:18
+Stack trace:
+#0 /home1/pashupra/dombivlihomes.com/data/dombivli_areas.php(18): mysqli->query('\r\n    SELECT ar...')
+#1 {main}
+  thrown in /home1/pashupra/dombivlihomes.com/data/dombivli_areas.php on line 18
+[30-Jan-2026 11:27:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'zone' in 'field list' in /home1/pashupra/dombivlihomes.com/data/dombivli_areas.php:18
+Stack trace:
+#0 /home1/pashupra/dombivlihomes.com/data/dombivli_areas.php(18): mysqli->query('\r\n    SELECT ar...')
+#1 {main}
+  thrown in /home1/pashupra/dombivlihomes.com/data/dombivli_areas.php on line 18
